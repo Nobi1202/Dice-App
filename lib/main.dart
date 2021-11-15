@@ -31,7 +31,9 @@ class DicePage extends StatelessWidget {
         centerTitle: true,
         title: const Text("Dice"),
       ),
-      body: Container(),
+      body: const Center(
+        child: Text("Hello Nobi"),
+      ),
     );
   }
 }
